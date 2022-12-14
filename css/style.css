@@ -400,6 +400,7 @@ a:focus {
 }
 .banner-content2 p.lead {
   color: #fff;
+
 }
 
 /* =========================
@@ -482,7 +483,7 @@ PAGE BANNER
 
 .page-about {
   position: relative;
-  padding: 180px 0px;
+  padding: 120px 0px;
   background: url("../images/banner/about.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
@@ -502,7 +503,9 @@ PAGE BANNER
 }
 
 .page-banner-content h1 {
-  color: #fff;
+  color: #004689;
+  font-size: 32px;
+  line-height: 28px;
 }
 
 .page-banner-content p {
@@ -955,11 +958,15 @@ h5.subtitle {
 -----------------------*/
 #projects-wrap {
   position: relative;
-  background: url("../images/bg/banner_bg.jpg") no-repeat;
+  background: url(../images/bg/ourculture.jpg) no-repeat;
   background-size: cover;
+  height: 550px;
+  background-position: center;
 }
 #projects-wrap p.lead {
-  color: #a9a9a9 !important;
+  color: #1d1d1d !important;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .overlay {
@@ -968,7 +975,7 @@ h5.subtitle {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgb(255 255 255 / 60%);
+  background: rgb(255 255 255 / 80%);
 }
 
 .overlay.feature-overlay {
@@ -2310,6 +2317,7 @@ header:hover .owl-next {
   height: 3px;
   width: 50px;
   margin-bottom: 1px;
+  margin: 0px auto;
 }
 
 .footer-bottom{
@@ -2728,4 +2736,92 @@ header:hover .owl-next {
   .testimonial_section .testimonial_box .testimonial_container .testimonials .images_box {
     display: none;
   }
+}
+
+
+.logo_main{
+  width: fit-content;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: -34px;
+  background: #fff;
+  border: 5px solid #f7f7f7;
+  padding: 0px 12px 0px 0px;
+  border-radius: 5px;
+  /* z-index: 9999; */
+  position: relative;
+}
+
+
+.about_img1{
+  width: 100%;
+}
+
+.about_img2{
+  width: 80%;
+  position: relative;
+  bottom: 100px;
+  right: -76px;
+}
+
+
+
+
+
+.culture{
+  width: 80%;
+  background: #fff;
+  position: relative;
+  margin: 0px auto;
+  padding: 50px;
+  margin-top: -100px;
+}
+
+p.lead {
+  font-size: 16px;
+  color: #2a2a2a;
+  font-weight: 400;
+}
+
+/* .culture_images{
+  padding: 0px;
+  margin: 0px;
+}
+.culture_images>li>img{
+  width: 45%;
+  margin: 10px;
+  transition: all .3s ease-in-out;
+}
+
+.culture_images>li>img:hover{
+  transform: scale(1.2);
+  transition: all .3s ease-in-out;
+}
+.culture_images>li{
+  list-style: none;
+  display: inline;
+} */
+
+
+.img-wrapper {  
+  width: 400px;
+  height: auto;
+  overflow: hidden; 
+}
+
+.inner-img {
+  transition: 0.3s;
+  width: 100%;
+}
+
+.inner-img:hover {
+  transform: scale(1.2);
+  transition: all .3s ease-in-out;
+}
+
+/* Other styling elements, that are not necessary for the example */
+
+.img-wrapper {
+  display: inline-block;
+  box-sizing: border-box;
 }

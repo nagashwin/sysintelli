@@ -9,11 +9,8 @@
 
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  ================================================== -->
   <meta charset="utf-8">
-  <title>Rappo - It solutions &amp; Corporate template</title>
+  <title>Sysintelli - we do IT for you</title>
 
   <!-- Mobile Specific Metas
   ================================================== -->
@@ -21,7 +18,7 @@
   <meta name="description" content="Corporate Html5 Template">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <meta name="author" content="Themefisher">
-  <meta name="generator" content="Themefisher Rappo HTML Template v1.0">
+  <meta name="generator" content="">
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
@@ -38,12 +35,14 @@
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
-  
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
   <!--Favicon-->
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
 
 </head>
 <body id="top-header">
+
 <!-- LOADER TEMPLATE -->
 <div id="page-loader">
   <div class="loader-icon fa fa-spin colored-border"></div>
@@ -53,10 +52,10 @@
 
 <!-- NAVBAR
     ================================================= -->
-<nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
+<nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable p-0">
   <div class="container">
-    <a class="navbar-brand" href="index-3.html">
-      <h3>Rappo</h3>
+    <a class="navbar-brand logo" href="index.html">
+        <img src="images/logo.png"/>
     </a>
     <!-- Toggler -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -66,72 +65,64 @@
 
     <!-- Collapse -->
     <div class="collapse navbar-collapse has-dropdown" id="navbarCollapse">
-      <!-- Links -->
+    
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#!" id="navbarWelcome" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
+        <li class="nav-item">
+          <a class="nav-link " href="index.html" >
             Home
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarWelcome">
-            <li><a class="dropdown-item" href="index.html">Home-1</a></li>
-            <li><a class="dropdown-item" href="index-2.html">Home-2</a></li>
-            <li><a class="dropdown-item" href="index-3.html">Home-3</a></li>
-            <li><a class="dropdown-item" href="index-4.html">Home-4</a></li>
-
-            <li class="dropdown dropdown-submenu dropright">
-              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-              <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-              </ul>
-            </li>
-
-            <li class="dropdown dropdown-submenu dropleft">
-              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-
-              <ul class="dropdown-menu" aria-labelledby="dropdown0301">
-                <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-              </ul>
-            </li>
-          </ul>
         </li>
         <li class="nav-item ">
-          <a href="about.html" class="nav-link js-scroll-trigger">
+          <a href="about.html" class="nav-link active">
             About
           </a>
         </li>
-        <li class="nav-item ">
-          <a href="service.html" class="nav-link js-scroll-trigger">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="aboutdropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
             Services
           </a>
+          <ul class="dropdown-menu" aria-labelledby="aboutdropdown">
+            <li><a class="dropdown-item" href="#">Salesforce</a></li>
+            <li><a class="dropdown-item" href="#">BOT</a></li>
+            <li><a class="dropdown-item" href="#">IOT</a></li>
+            <li><a class="dropdown-item" href="#">Application Development</a></li>
+            <li><a class="dropdown-item" href="#">Project Management</a></li>
+            <li><a class="dropdown-item" href="#">Software Consulting</a></li>
+            <li><a class="dropdown-item" href="#">Business Intelligence</a></li>
+            <li><a class="dropdown-item" href="#">Data Management</a></li>
+          </ul>
         </li>
-        <li class="nav-item ">
-          <a href="pricing.html" class="nav-link js-scroll-trigger">
-            Pricing
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" id="productsdropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+            Products
           </a>
+          <ul class="dropdown-menu" aria-labelledby="productsdropdown">
+            <li><a class="dropdown-item" href="#">Medintelli</a></li>
+            <li><a class="dropdown-item" href="#">Sourceintelli</a></li>
+          </ul>
         </li>
 
         <li class="nav-item ">
-          <a href="project.html" class="nav-link js-scroll-trigger">
-            Projects
+          <a href="#" class="nav-link">
+            Careers
           </a>
         </li>
-
+        <!-- <li class="nav-item ">
+            <a href="#" class="nav-link">
+              Clients
+            </a>
+          </li> -->
         <li class="nav-item ">
-          <a href="contact.html" class="nav-link">
+          <a href="#" class="nav-link">
             Contact
           </a>
         </li>
       </ul>
-    </div> <!-- / .navbar-collapse -->
-  </div> <!-- / .container -->
+    </div>
+  </div> 
 </nav>
-
    <!-- HERO
     ================================================== -->
     <section class="page-banner-area page-about">
@@ -141,82 +132,69 @@
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-md-12 col-12 text-center">
                     <div class="page-banner-content">
-                        <h1 class="display-4 font-weight-bold">Creative It agency</h1>
-                        <p>We'd love to talk about how we can help you.</p>
+                        <h1 class="display-4 font-weight-bold">About Us</h1>
+                        <div class="section-content">
+                          <nav role="navigation" class="breadcrumb-trail breadcrumbs">
+                            <div class="breadcrumbs">
+                              <span class="trail-item trail-begin">
+                                <a href="#"><span>Home</span></a>
+                              </span>
+                              <span><i class="fa fa-angle-right"></i></span>
+                              <span class="trail-item trail-end active text-theme-colored2">About</span>
+                            </div>
+                          </nav>
+                        </div>
                     </div>
                 </div>
             </div> <!-- / .row -->
         </div> <!-- / .container -->
     </section>
 
-
+        <div class="logo_main">
+          <img src="images/favicon.png">
+        </div>
+      
+   
 
 <section class="section" id="process">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-12 col-lg-12">
                     <div class="section-heading">
-                        <!-- Heading -->
                         <h2 class="section-title">
-                            Our Working process
+                            About Sysintelli
                         </h2>
-
+                        <p>We are trying to deliver 100% quality product and success their business to achieve ultimate goal.</p>
                         <!-- Subheading -->
                         <p>
-                            Rappo can be used to create anything from a small marketing page to a sophisticated website.
-                        </p>
-
                     </div>
                 </div>
             </div> <!-- / .row -->
-
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-1.jpg" alt="" class="img-fluid">
-
-                        <h3>Project Research</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-2.jpg" alt="" class="img-fluid">
-
-                        <h3>Project demostration</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-md-6">
-                    <div class="process-block">
-                        <img src="images/process/process-3.jpg" alt="" class="img-fluid">
-
-                        <h3>Development & delivery</h3>
-                        <p>Nihil facere delectus eaque aut possimus nobis laudantium reprehenderit.</p>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
 
-<section class="section" id="projects-wrap">
-        <div class="overlay"></div>
+<section class="section pt-0">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="section-heading">
-                        <h1 class="text-white">We are trying to deliver 100% quality product and success their business to achieve ultimate goal.</h1>
-                    </div>
+              <div class="col-md-5">
+                <img src="images/bg/banner_bg.jpg" class="about_img1">
+                <img src="images/bg/6.jpg" class="about_img2">
+              </div>
+                <div class="col-lg-7">
+                    <p class="lead">Sysintelli, founded in early 2005, as a software development and consulting firm, has now evolved to providing whole array of services and solutions in Application Development, Product Development, Mobile, Big Data, Cloud, IoT technologies. Over the course of our journey we have gained tremendous knowledge and experience in providing most cost-effective solutions to our customers. </p>
+                    <p class="lead">Our core strength is our employees and our core focus is our customers success & satisfaction.</p>
+
+                    <p class="lead">We develop, deliver and support enterprise wide IT solutions to our customers. Our right mix of highly skilled, experienced and dedicated software professionals work with you to provide efficient solutions for varied business needs.</p>
+                      
+                  
                 </div>
-                <div class="col-lg-6">
-                    <p class="lead text-white">We are providing best service since 1990 to present , committed to best service delivery.Nullam metus enim, placerat in lacus vel, porttitor egestas libero. Etiam ex risus, feugiat eget accumsan eu, sagittis eu urna. In eget ultrices metus. Nunc accumsan </p>
-                </div>
+               
             </div>
         </div>
     </section>
 
-    <section id="projects" class="section-bottom">
+    <!-- <section id="projects" class="section-bottom">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6 col-sm-6 mb-5">
@@ -263,320 +241,130 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+   
+  <section class="section" id="projects-wrap"></section>
 
-
-<section class="section" id="section-testimonial">
-        <div class="container">
-           <div class="row align-items-center">
-                <div class="col-lg-4 col-sm-12 col-md-12">
-                    <div class="section-heading testimonial-heading">
-                        <h1>What they say <br>about us</h1>
-                        <p>Numquam doloribus impedit at consectetur molestiae tempora ratione possimus in veniam aperiam, eum consequuntur, unde. Earum ullam molestiae suscipit saepe sunt recusandae.</p>
-                    </div>
-                </div>
-                <div class="col-lg-8 col-sm-12 col-md-12">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    
-                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-3.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="test-inner ">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-4.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    
-                     <div class="row">
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-5.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-6">
-                            <div class="test-inner">
-                               <div class="test-author-thumb d-flex">
-                                   <img src="images/client/test-6.jpg" alt="Testimonial author" class="img-fluid">
-                                   <div class="test-author-info">
-                                       <h4>Will Barrow</h4>
-                                       <h6>Sunrise Paradise Hotel</h6>
-                                   </div>
-                               </div>
-
-                                Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam, laudantium! Dolorem.
-
-                                <i class="fa fa-quote-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <section class="culture pb-0">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-12 col-lg-12">
+            <div class="section-heading">
+                <h2 class="section-title">
+                   Our Culture
+                </h2>
             </div>
         </div>
-    </section>
- <section class="section" id="blog">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                    <div class="section-heading">
-                        <!-- Heading -->
-                        <h2 class="section-title">
-                            Read our latest news
-                        </h2>
+    </div> 
+    </div>
+  </section>
 
-                        <!-- Subheading -->
-                        <p>
-                            Our duty towards you is to share our experience we're reaching in our work path with you.
-                        </p>
-                    </div>
-                </div>
-            </div> <!-- / .row -->
+  <section id="" class="section-bottom text-center ">
+      <div class="container">
+        <p class="lead">We at Sysintelli have always believed and emphasized on a work culture with strong values. We build teams based on talent, motivation and dedication. Many employees work with us because of who we are and the progressive nature of the company. We have certified experts from all areas of software development working all over the world as a part of our team. We continuously train our employees on latest technologies so that they can remain competitive and meet the growing needs of the IT industry.</p>
 
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-1.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#!">
-                                    <h3 class="card-title">Top tips to speed up your site in a speedy time</h3>
-                                </a>
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                <a href="#!" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-2.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#!">
-                                    <h3 class="card-title">Brand your site value with marketing strategies</h3>
-                                </a>
+        <div class="img-wrapper">
+          <img class="inner-img" src="images/culture/culture1.jpg" />
+      </div>
+      
+      <div class="img-wrapper">
+          <img class="inner-img" src="images/culture/culture2.jpg"/>
+      </div>
+      
+      <div class="img-wrapper">
+          <img class="inner-img" src="images/culture/culture3.jpg"/>
+      </div>
+      <div class="img-wrapper">
+        <img class="inner-img" src="images/culture/culture4.jpg"/>
+    </div>
+      
+        <!-- <ul class="culture_images">
+          <li><img src="images/culture/culture1.jpg"></li>
+          <li><img src="images/culture/culture2.jpg"></li>
+          <li><img src="images/culture/culture3.jpg"></li>
+          <li><img src="images/culture/culture4.jpg"></li>
+        </ul> -->
+      </div>
+  </section>
 
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                 <a href="#!" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-lg-4 col-md-8">
-                    <div class="blog-box">
-                        <div class="blog-img-box">
-                            <img src="images/blog/blog-3.jpg" alt="" class="img-fluid blog-img">
-                        </div>
-                        <div class="single-blog">
-                            <div class="blog-content">
-                                <h6> 17 October 2018</h6>
-                                <a href="#!">
-                                    <h3 class="card-title">Website Optimization is very essential for site speed</h3>
-                                </a>
-                                <p>There are many variations of passages Lorem Ipsum available, but majority have ama suffered altratio. the lorem.</p>
-                                 <a href="#!" class="read-more">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <footer class="section " id="footer">
+      <div class="overlay footer-overlay"></div>
+      <!--Content -->
+      <div class="container">
+       <div class="row ">
+           <div class="col-md-12 text-center">
+               <div class="footer-widget mb-5">
+                   <a href="index.html" class="footer-brand text-white logo">
+                    <img src="images/logo.png"/>
+                   </a>
+               
+                 </div>
+           </div>
+       </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footer-widget">
+              <h3>Account</h3>
+              <ul class="footer-links">
+               <li><a href="#">About</a></li>
+               <li><a href="#">Products</a></li>
+               <li><a href="#">Careers</a></li>
+               <li><a href="#">Contact</a></li>
+              </ul>
             </div>
-        </div>
-    </section>
-
- <footer class="section " id="footer">
-   <div class="overlay footer-overlay"></div>
-   <!--Content -->
-   <div class="container">
-     <div class="row justify-content-start">
-       <div class="col-lg-4 col-sm-12">
-         <div class="footer-widget">
-           <!-- Brand -->
-           <a href="index.html" class="footer-brand text-white">
-             Rappo
-           </a>
-           <p>Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum
-             dolor sit amet, consectetur adipisicing elit.</p>
+          </div>
+          <div class="col-lg-4">
+           <div class="footer-widget">
+             <h3>Services</h3>
+             <!-- Links -->
+             <ul class="footer-links">
+               <li><a href="#">Salesforce</a></li>
+               <li><a href="#">BOT</a></li>
+               <li><a href="#">IOT</a></li>
+               <li><a href="#"> Mobile Applications</a></li>
+               <li><a href="#">Project Management</a></li>
+               <li><a href="#">Software Consulting</a></li>
+               <li><a href="#">Business Intelligence</a></li>
+               <li><a href="#">Application Development</a></li>
+               <li><a href="#">Data Management</a></li>
+             </ul>
+           </div>
          </div>
-       </div>
-
-       <div class="col-lg-3 ml-lg-auto col-sm-12">
-         <div class="footer-widget">
-           <h3>Account</h3>
-           <!-- Links -->
-           <ul class="footer-links ">
-             <li>
-               <a href="#!">
-                 Terms and conditions
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Privacy policy
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Affiliate services
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Help and support
-               </a>
-             </li>
-             <li>
-               <a href="#!">
-                 Frequently Asked Question
-               </a>
-             </li>
-           </ul>
-         </div>
-       </div>
-
-
-       <div class="col-lg-2 col-sm-6">
-         <div class="footer-widget">
-           <h3>About</h3>
-           <!-- Links -->
-           <ul class="footer-links">
-            <li>
-              <a href="about.html">
-                About Us
-              </a>
-            </li>
-             <li>
-               <a href="service.html">
-                 Services
-               </a>
-             </li>
-             <li>
-               <a href="pricing.html">
-                 Pricing
-               </a>
-             </li>
-             <li>
-               <a href="project.html">
-                Recent Projects
-               </a>
-             </li>
-
-             <li>
-               <a href="contact.html">
-                 Contact
-               </a>
-             </li>
-           </ul>
-         </div>
-       </div>
-
-       <div class="col-lg-2 col-sm-6">
-         <div class="footer-widget">
-           <h3>Socials</h3>
-           <!-- Links -->
-           <ul class="list-unstyled footer-links">
-             <li><a href="https://www.facebook.com/themefisher"><i class="fab fa-facebook-f"></i>Facebook</a></li>
-             <li>
-               <a href="https://www.twitter.com/themefisher"><i class="fab fa-twitter"></i>Twitter
-               </a></li>
-             <li><a href="https://www.pinterest.com/themefisher/"><i class="fab fa-pinterest-p"></i>Pinterest
-               </a></li>
-             <li><a href="https://themefisher.com/"><i class="fab fa-linkedin"></i>linkedin
-               </a></li>
-             <li><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i class="fab fa-youtube"></i>YouTube
-               </a></li>
-           </ul>
-         </div>
-       </div>
-     </div> <!-- / .row -->
-
-
-     <div class="row text-right pt-5">
-       <div class="col-lg-12">
-         <div class="overflow-hidden">
-           <!-- Copyright -->
-          <p class="footer-copy">
-            Copyright &copy; <script>var CurrentYear = new Date().getFullYear()
-            document.write(CurrentYear)
-          </script>. Designed &amp; Developed by <a class="current-year" href="https://themefisher.com/">Themefisher</a>
-          </p>
-         </div>
-       </div>
-     </div> <!-- / .row -->
-   </div> <!-- / .container -->
- </footer>
+   
+          <div class="col-lg-4">
+            <div class="footer-widget">
+              <h3>Connect With Us</h3>
+             <h4>Sysintelli, Inc</h4>
+             <p>9466 Black Mountain Road,
+               Suite 200, San Diego, CA-92126.</p>
+               <p><i class="fa fa-envelope"></i> info@sysintelli.com</p>
+               <p><i class="fa fa-phone"></i> 858-271-1600</p>
+            </div>
+          </div>
+   
+         
+        </div> <!-- / .row -->
+   
+   
+        <div class="row">
+          <div class="col-lg-12">
+        
+            <div class="footer-bottom">
+              <!-- Copyright -->
+              <p class="terms">Terms & Conditons | Privacy Policy | Disclaimer</p>
+             <p class="footer-copy">
+              
+               Copyright &copy; <script>var CurrentYear = new Date().getFullYear()
+               document.write(CurrentYear)
+             </script>. Sysintelli
+             </p>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </footer>
 
 
  <!--  Page Scroll to Top  -->
